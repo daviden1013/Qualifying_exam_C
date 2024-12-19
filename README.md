@@ -1,5 +1,7 @@
 <div align="center"><img src=ROC.png width=500 ></div>
 
+For better readability, view this project on the [GitHub page](https://github.com/daviden1013/Qualifying_exam_C).
+
 This is a quick project that use machine learning for breast cancer recurrence prediction. The [dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer) is publicly available. 
 
 ## Table of Contents
@@ -479,9 +481,14 @@ irradiat_yes                bool
 ```
 
 ### Machine learning model training
-The [training and evaluation pipeline](Train_eval_pipeline.py) is a Python script that runs in cmd. It takes a parameter `--config` or `-c` for each run. The configs for our experiments are available in [this folder](configs/). 
+The [training and evaluation pipeline](Train_eval_pipeline.py) is a Python script that runs in cmd. It takes a parameter `--config` or `-c` for each run. The configs for our experiments are available in [this folder](configs/). For example:
 
-The training set and test set are loaded 
+```cmd
+python Train_eval_pipeline.py -c ./configs/RandomForestClassifier.yaml
+```
+
+When the pipeline runs, the training set and test set are loaded 
+
 ```python
 feature_cols = ['age', 'tumor-size', 'inv-nodes', 'deg-malig',
     'menopause_lt40', 'menopause_premeno', 'node-caps_no', 'node-caps_yes',
