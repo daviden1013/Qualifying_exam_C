@@ -3,7 +3,6 @@ import argparse
 from easydict import EasyDict
 import yaml
 import os
-import torch.optim as optim
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
