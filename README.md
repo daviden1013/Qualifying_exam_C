@@ -1,6 +1,6 @@
 <div align="center"><img src=ROC.png width=500 ></div>
 
-For better readability, view this project on the [GitHub page](https://github.com/daviden1013/Qualifying_exam_C).
+For better readability, view this project on the [GitHub page](https://github.com/daviden1013/Qualifying_exam_C) (https://github.com/daviden1013/Qualifying_exam_C).
 
 This is a quick project that use machine learning for breast cancer recurrence prediction. The [dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer) is publicly available. 
 
