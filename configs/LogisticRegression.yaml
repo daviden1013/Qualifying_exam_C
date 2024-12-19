@@ -1,0 +1,5 @@
+---
+  run_name: LogisticRegression
+  data_file: /home/daviden1013/David_projects/Qualifying_exam_C/data/curated_df.pkl
+  model: LogisticRegression
+  out_path: /home/daviden1013/David_projects/Qualifying_exam_C/
